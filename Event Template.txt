@@ -1,0 +1,27 @@
+Event opening tags: [Morning] [Day] [Evening] [Night]
+Event closing tags: [Increase health] [Decrease health] [Increase hunger] [Decrease hunger] [Event end] [Game end]
+Outcome tags: [Unlikely outcome]
+
+(place opening tag here)
+(Event introductory message)
+     1 - (option 1)
+     2 - (option 2)
+     etc.
+
+(option 1 [Outcome 1]): (text explaining the events following option 1)
+(place closing tag here)
+
+        (option 1 [Outcome 2]): (text explaining different events following option 1)
+             1 - (option 1)
+             2 - (option 2)
+             etc.
+
+(option 1 [Outcome 1]): (text explaining the events following option 1s events)
+           (place closing tags here]
+           etc.
+
+        (option 2 [Outcome 1]): (text explaining the events following option 2)
+        (place closing tag here)
+
+       (option 2 [Outcome 2]): (text explaining different events following option 2)
+       (place closing tag here)
