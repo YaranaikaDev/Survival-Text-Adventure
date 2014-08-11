@@ -22,6 +22,10 @@ Option::~Option() {
 	mChildOptions.clear();
 }
 
+void Option::displayMessage() {
+	std::cout << mMessage << std::endl;
+}
+
 void Option::registerOption(Option* o) {
 	mChildOptions.push_back(o);
 }

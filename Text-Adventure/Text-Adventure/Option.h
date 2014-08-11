@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <string>
+#include <iostream>
 
 using std::vector;
 using std::string;
@@ -15,6 +16,7 @@ public:
 		const string& closingTag);
 	~Option();
 
+	void displayMessage();
 	void registerOption(Option* o);
 
 protected:
