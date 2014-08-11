@@ -19,14 +19,26 @@ int main(int argc, char* argv []) {
 
 	// ALSO, CAREFUL MAKING LINES LONGER THAN 80 CHARACTERS - WE'LL GET WEIRD LINE CUTOFFS OTHERWISE
 
-	// test event
-	Event* e = new Event(
-		"[DAY]\n",
-		"Walking through the forest, you hear a twig snap behind you.\n"
-		"Turning towards the noise you see a flash of brown dart through\n"
-		"the trees. Startled, you stand still for a moment, giving the animal\n"
-		"ample time to get further away. Looking to the ground you notice that\n"
-		"there are blood stains.\n");
+
+
+
+	// TEST LOAD FROM FILE INTO EVENT BELOW
+	std::ifstream file;
+	file.open("data/1.EVENT");
+
+	string lineBuffer;
+	string eventMessage;
+	string eventOpeningTag;
+
+	while (!file.eof()) {
+		std::getline(file, lineBuffer);
+		eventMessage.append(lineBuffer + "\n");
+	}
+	Event* e = new Event(eventOpeningTag, eventMessage);
+	// END TEST
+
+
+
 
 	// test option1
 	Option* o1 = new Option(
