@@ -8,12 +8,12 @@ display accepted commands
 while user input is not the start game or exit command
     request command from user
     if user enters command to view credits
-            generate number between 1 and 2
-            create variable to hold random number
-            if random number is 1
-                display list of programmers
-                display list of writers
-            otherwise if random number is 2
+        generate number between 1 and 2
+        create variable to hold random number
+        if random number is 1
+            display list of programmers
+            display list of writers
+        otherwise if random number is 2
             display list of writers
             display list of programmers
     otherwise if user enters command to view valid commands
