@@ -9,7 +9,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	std::string termination_oper;
 	while (termination_oper != "x")
 	{
-		menuCommand(termination_oper);	// User chooses whether to view credits, or exit the game
+		menuCommand(termination_oper);	// User chooses whether to view credits, view list of valid commands, or exit the game
 	}
 	return 0;
 }
