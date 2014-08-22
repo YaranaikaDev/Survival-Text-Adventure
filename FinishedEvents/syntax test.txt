@@ -1,0 +1,132 @@
+         1         2         3         4         5         6         7         8
+<(S)>
+Walking through the forest, you hear a twig snap behind you. Turning towards the
+noise you see a flash of brown dart through the trees. Startled, you stand still
+for a moment, giving the animal ample time to get further away. Looking to the
+ground you notice that there are blood stains.
+<(/S)>
+<(Sa)>
+Give chase
+<(Sb)>
+Search the area
+<(Sc)>
+Move on
+
+<(1A)>
+Following the blood trail you quickly find its end. You don’t see anything in 
+your immediate view but you do hear a something panting nearby.
+<(/A)>
+<(Aa)>
+Investigate
+<(Ab)>
+Move on
+
+<(A1A)>
+Approaching the sound, you discover that it’s being made by a wolf clutching a 
+dead rabbit in its jaws. The wolf lunges at you and cuts your left arm as you 
+raise it to defend yourself. The wolf then makes its escape.
+[hp down]
+[end]
+<(/A1A)>
+
+<(A2A)> 
+Approaching the sound, you discover a young fawn that is badly bloodied. It 
+seems too tired to run any further.
+<(/A2A)>
+<(A2Aa)>
+Kill the deer
+<(A2Ab)>
+Move on
+
+<(A2A1A)>
+You manage to find a stone with a decent edge to it. It takes a lot of effort
+but you manage to cut the deer’s throat and let it bleed out. Once the deer 
+has finally expired you use the stone to roughly remove what meat and fur that
+you can and eat it raw. 
+[hunger down]
+[end]
+<(/A2A1A)>
+
+<(A2A2A)>
+Looking around all you can find to kill the deer is a sizeable stone. You use it
+to bash in the fawn’s head. It takes longer than you would’ve wished and in the 
+end you realize that you don’t have any real means to butcher it. What a fucking
+waste.
+[end]
+<(/A2A2A)>
+
+<(A2A2B)>
+Though you feel sorry for the animal, you don’t really see it being worth the 
+effort since you don’t have any proper tools to actually butcher it once you’ve
+killed it. You decide to keep moving. 
+[end]
+<(/A2A2B)>
+
+<(2A)>
+Following the blood trail you quickly find its end. You scan the area but don’t
+see anything and there’s no tracks that might hint as to where the animal went.
+You search the surrounding area but fail to find anything, it seems you’ve 
+completely lost track of whatever it was. There’s no sense in wasting more time. 
+[end]
+<(/2A)>
+
+<(1B)>
+Scouring the area you find a dead rabbit. It’s been partially eaten but there 
+appears to be some meat left. It’s unclear if it was killed by the animal you 
+just saw and you can’t really tell how long it’s been lying out here.
+<(/1B)>
+<(1Ba)>
+Eat the rabbit
+<(1Bb)>
+Move on
+
+<(1B1A)>
+You rip out what chunks of meat you can with your hands and eat them. While it’s
+hard to chew and the taste isn’t all that appetizing, it seems that your stomach 
+is handling it all right and it feels good to have at least something to eat. 
+[hunger down]
+[end]
+<(/1B1A)>
+
+<(1B2A)>
+You rip out what chunks of meat you can with your hands and eat them. The meat 
+is softer than you would’ve expected and while you’re not used to eating raw
+meat, something seems off about the taste. After you’ve finished and continue 
+moving you start to feel your stomach cramp. It eventually gets to the point 
+where you double over in pain and vomit out what you’ve just eaten. It seems 
+that you’re now hungrier than you were before you ate the rabbit.
+[hunger up]
+[end]
+<(/1B2A)>
+
+<(1BB)>
+While food is hard to come by, you hardly feel it’s worth it to take the chance 
+on this rabbit. You decide to keep moving.
+[end]
+<(/1BB)>
+
+<(2B)>
+Though you look high and low, your efforts are fruitless. You can’t find 
+anything of interest in the area and decide to keep moving. 
+[end]
+<(/2B)>
+
+<(1C)>
+*Move on [Outcome 1]:  While the prospect of a potential meal is enticing, you 
+decide it’s better to keep moving.
+[end]
+<(/1C)>
+
+<(2C)>
+[unlikely]
+Not wanting to waste time on chasing the animal you decide to keep moving, after
+a short time you begin to hear footfalls rapidly approaching . You wheel around
+only to see a wolf already lunging at you with it’s gaping maw. You barely 
+manage to raise your arm in an attempt to defend yourself and the wolf’s jaw 
+clamps down hard on it. With your free arm you attempt to wrestle free as the 
+wolf thrashes it’s head back and forth, widening the wounds. You eventually get
+yourself free of the wolf and sprint as hard as you can, barely managing to escape
+from the wolf.
+[health down]
+[end]
+<(/2C)>

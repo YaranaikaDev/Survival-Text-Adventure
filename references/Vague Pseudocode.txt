@@ -1,8 +1,8 @@
-create and fill list for programmers
+//create and fill list for programmers
 randomize order of programmers
-create and fill list for writers
+//create and fill list for writers
 randomize order of writers
-display name of game
+//display name of game
 create variable to accept user input
 display accepted commands
 while user input is not the start game or exit command
